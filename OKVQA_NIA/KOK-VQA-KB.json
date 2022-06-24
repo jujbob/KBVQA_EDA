@@ -1,0 +1,47 @@
+{
+    "INFO": {
+        "DATASET_NAME": "외부지식기반 멀티모달 질의응답 데이터",
+        "DATASET_DETAIL": "상식 데이터",
+        "VERSION": "1.0",
+        "LICENSE": "",
+        "CREATE_DATE_TIME": "2022-07-20 17:02:54",
+        "CONTRIBUTOR": "",
+        "URL": "https://www.labelon.kr",
+        "CATEGORY_NAME": "상식"
+    },
+    "knowledgebase": {
+        "ko.dbpedia/1137": {
+            "KB": "ko.dbpedia", 
+            "e1_label": "피아노", 
+            "e2_label": "피아노", 
+            "surface_ko": ["피아노", "이름" , "피아노"], 
+            "surface_en": null, 
+            "sources": null, 
+            "r": "http://dbpedia.org/ontology/title", 
+            "context": null, 
+            "e1": "http://ko.dbpedia.org/resource/피아노", 
+            "e2": "피아노"}, 
+        "ko.dbpedia/1142": {
+            "KB": "ko.dbpedia", 
+            "e1_label": "피아노", 
+            "e2_label": "바르톨로메오", 
+            "surface_ko": ["피아노", "발명가" , "바르톨로메오"],
+            "surface_en": null,
+            "sources": null, 
+            "r": "http://dbpedia.org/ontology/abstract", 
+            "context": null, 
+            "e1": "http://ko.dbpedia.org/resource/피아노", 
+            "e2": null},
+        "ko.dbpedia/1437": {
+            "KB": "ko.dbpedia", 
+            "e1_label": "탁구", 
+            "e2_label": "탁구라켓", 
+            "surface_ko": ["탁구", "장비" , "탁구라켓"], 
+            "surface_en": null,
+            "sources": null, 
+            "r": "http://dbpedia.org/ontology/equipment", 
+            "context": null, 
+            "e1": "http://ko.dbpedia.org/resource/탁구", 
+            "e2": "http://ko.dbpedia.org/resource/탁구라켓"}
+    }
+}
