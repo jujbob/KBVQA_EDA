@@ -103,7 +103,58 @@
             "kb_source": "webchild", 
             "fact": ["webchild/2442"]
         }]
+    },
+    {
+        "IMAGE_ID ": "3",
+        "IMAGE_NAME ": "",
+        "ACTION ": "",
+        "CAPTION ": "",
+        "IMAGE_ACQUISITION_DATE": 20181004,
+        "IMAGE_URL ": " https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Hupfeld_piano_played_%282018-10-04_%40pxhere_1546039%29.jpg/800px-Hupfeld_piano_played_%282018-10-04_%40pxhere_1546039%29.jpg",
+        "LICENSE ": " FREE",
+        "MAINOBJECT ": " piano",
+        "MAINOBJECT_URL ": " http://ko.dbpedia.org/resource/피아노",
+        "SCENE ": "",
+        "SUBOBJECT_1 ": "Hands",
+        "SUBOBJECT_2 ": "Leg",
+        "WIDTH ": 800,
+        "HEIGHT ": 533,
+        "WIKI_FILE ": "Hupfeld piano played (2018-10-04 @pxhere 1546039).jpg",
+        "bounding_box": [
+        {
+            "BOX_ID": "1-1",
+            "OBJECT": "piano",
+            "X_COORDINATE": 374,
+            "Y_COORDINATE": 950,
+            "BOX_WIDTH": 575,
+            "BOX_HEIGHT": 384
+        }],
+        "questions": [
+        {
+            "question_id": "1-1",
+            "question_ko": "이미지의 어떤 물체를 음반가게에서 찾을 수 있는가?", 
+            "question_en": null,
+            "answer_ko": "피아노", 
+            "answer_en": null,
+            "ans_source": "triple", 
+            "kb_source": "conceptnet", 
+            "fact": ["conceptnet/2"]
+        },
+        {
+            "question_id": "1-2",
+            "question_ko": "그림 속 매우 인기있는 악기는 무엇인가?", 
+            "question_en": null,
+            "answer": "피아노", 
+            "answer_en": null,
+            "ans_source": "triple", 
+            "kb_source": "ko.conceptnet", 
+            "fact": ["conceptnet/1"]
+        }]
     }
+        
+        
+        
+        
     ]
 }
    

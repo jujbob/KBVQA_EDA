@@ -19,17 +19,19 @@
             "sources": null, 
             "r": "http://dbpedia.org/ontology/title", 
             "context": null, 
+            "dataset": null,
             "e1": "http://ko.dbpedia.org/resource/피아노", 
             "e2": "피아노"}, 
         "ko.dbpedia/1142": {
             "KB": "ko.dbpedia", 
             "e1_label": "피아노", 
             "e2_label": "바르톨로메오", 
-            "surface_ko": ["피아노", "발명가" , "바르톨로메오"],
+            "surface_ko": ["피아노", "발명가" , "크리스토포리"],
             "surface_en": null,
             "sources": null, 
             "r": "http://dbpedia.org/ontology/abstract", 
             "context": null, 
+            "dataset": null,
             "e1": "http://ko.dbpedia.org/resource/피아노", 
             "e2": null},
         "ko.dbpedia/1437": {
@@ -41,7 +43,33 @@
             "sources": null, 
             "r": "http://dbpedia.org/ontology/equipment", 
             "context": null, 
+            "dataset": null,
             "e1": "http://ko.dbpedia.org/resource/탁구", 
-            "e2": "http://ko.dbpedia.org/resource/탁구라켓"}
+            "e2": "http://ko.dbpedia.org/resource/탁구라켓"},
+        "conceptnet/1": {
+            "KB": "conceptnet", 
+            "e1_label": "piano", 
+            "e2_label": "very popular musical instrument", 
+            "surface_ko": ["피아노", "이다" , "매우 인기있는 악기"], 
+            "surface_en": null,
+            "sources": null, 
+            "r": "/r/IsA", 
+            "context": null, 
+            "dataset": "/d/conceptnet/4/en",
+            "e1": "/c/en/piano/r", 
+            "e2": "/c/en/very_popular_musical_instrument"},
+        "conceptnet/2": {
+            "KB": "conceptnet", 
+            "e1_label": "piano", 
+            "e2_label": "music store", 
+            "surface_ko": ["피아노", "위치하다" , "음반 가게"], 
+            "surface_en": null,
+            "sources": null, 
+            "r": "/r/AtLocation", 
+            "context": null, 
+            "dataset": "/d/conceptnet/4/en",
+            "e1": "/c/en/piano/r", 
+            "e2": "/c/en/music_store"
+        }
     }
 }
